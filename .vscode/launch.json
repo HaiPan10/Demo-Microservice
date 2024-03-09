@@ -39,6 +39,26 @@
             "projectName": "demo-inventory-service",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Main<demo-discovery-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.Main",
+            "projectName": "demo-discovery-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DiscoveryServerApplication<demo-discovery-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.demodiscoveryserver.DiscoveryServerApplication",
+            "projectName": "demo-discovery-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
